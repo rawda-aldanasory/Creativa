@@ -9,6 +9,7 @@ import Selector from './components/TwoButtons/TwoButtons';
 import HomePage from './components/Home/Home';
 import LogIn from './components/LogIn/LogIn'; 
 import SignUp from './components/SignUp/SignUp';
+import ProductsList from './components/Products/ProductsData';
 
 function App() {
   return (
@@ -27,8 +28,12 @@ function App() {
       {/* <ClassState /> */}
 
       {/* <Selector /> */}
-      <HomePage />
-      
+      {/* <HomePage /> */}
+
+      {/* Lab 3 */}
+
+      <ProductsList />
+
     </div>
   );
 }
