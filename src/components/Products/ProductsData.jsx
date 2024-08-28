@@ -15,14 +15,14 @@ const ProductsList = () => {
             name: "Halloween Sublimation",
             img: "https://www.creativefabrica.com/wp-content/uploads/2024/08/02/Halloween-SublimationWitchy-Halloween-Graphics-103055177-1-1-580x387.jpg", 
             description: "Halloween Sublimation ",
-            price: 200
+            price: 2
         },
         {
             id: 3,
             name: " Pumpkin and Ghost",
             img: "https://www.creativefabrica.com/wp-content/uploads/2023/10/03/Halloween-Pumpkin-and-Ghost-Graphics-80709546-1-1-580x387.png", 
             description: "Halloween Pumpkin and Ghost",
-            price: 300
+            price: 5
         },
 
     ];
