@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import SignUp from "../SignUp/SignUp";
 import LogIn from "../LogIn/LogIn";
-
+import { UseProvider } from "../../Context/Context";
 class HomePage extends Component {
   constructor() {
     super();

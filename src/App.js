@@ -10,6 +10,13 @@ import HomePage from './components/Home/Home';
 import LogIn from './components/LogIn/LogIn'; 
 import SignUp from './components/SignUp/SignUp';
 import ProductsList from './components/Products/ProductsData';
+import ComponentThree from './components/ContextComponents/ComponentOne/ComponentTwo/ComponentThree/ComponentThree';
+import ComponentOne from './components/ContextComponents/ComponentOne/ComponentOne';
+import ComponentTwo from './components/ContextComponents/ComponentOne/ComponentTwo/ComponentTwo';
+import ComponentFour from './components/ContextComponents/ComponentOne/ComponentTwo/ComponentThree/ComponentFour/ComponentFour';
+import ComponentFive from './components/ContextComponents/ComponentOne/ComponentTwo/ComponentThree/ComponentFour/ComponentFive/ComponentFive';
+import { UseProvider } from './Context/Context';
+
 
 function App() {
   return (
@@ -32,7 +39,20 @@ function App() {
 
       {/* Lab 3 */}
 
-      <ProductsList />
+      {/* <ProductsList /> */}
+
+      <>
+    <div className="App">
+      <UseProvider value ="The added value">
+        <ComponentOne/>
+        <ComponentTwo/>
+        <ComponentThree/>
+        <ComponentFour/>     
+        <ComponentFive/>
+      </UseProvider> 
+      <HomePage/>
+    </div>
+    </>
 
     </div>
   );
