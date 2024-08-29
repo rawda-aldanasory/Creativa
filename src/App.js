@@ -16,6 +16,8 @@ import ComponentTwo from './components/ContextComponents/ComponentOne/ComponentT
 import ComponentFour from './components/ContextComponents/ComponentOne/ComponentTwo/ComponentThree/ComponentFour/ComponentFour';
 import ComponentFive from './components/ContextComponents/ComponentOne/ComponentTwo/ComponentThree/ComponentFour/ComponentFive/ComponentFive';
 import { UseProvider } from './Context/Context';
+import GetComponent from './GetComponent/GetComponent';
+import PostComponent from './components/PostComponent/PostComponent';
 
 
 function App() {
@@ -41,7 +43,7 @@ function App() {
 
       {/* <ProductsList /> */}
 
-      <>
+      {/* <>
     <div className="App">
       <UseProvider value ="The added value">
         <ComponentOne/>
@@ -52,7 +54,12 @@ function App() {
       </UseProvider> 
       <HomePage/>
     </div>
-    </>
+    </> */} 
+
+    {/* lab 4 */}
+
+    {/* <GetComponent /> */}
+    <PostComponent />
 
     </div>
   );
