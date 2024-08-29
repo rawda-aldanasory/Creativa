@@ -16,7 +16,7 @@ import ComponentTwo from './components/ContextComponents/ComponentOne/ComponentT
 import ComponentFour from './components/ContextComponents/ComponentOne/ComponentTwo/ComponentThree/ComponentFour/ComponentFour';
 import ComponentFive from './components/ContextComponents/ComponentOne/ComponentTwo/ComponentThree/ComponentFour/ComponentFive/ComponentFive';
 import { UseProvider } from './Context/Context';
-import GetComponent from './GetComponent/GetComponent';
+import GetComponent from './components/GetComponent/GetComponent';
 import PostComponent from './components/PostComponent/PostComponent';
 
 
