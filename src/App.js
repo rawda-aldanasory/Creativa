@@ -18,6 +18,8 @@ import ComponentFive from './components/ContextComponents/ComponentOne/Component
 import { UseProvider } from './Context/Context';
 import GetComponent from './components/GetComponent/GetComponent';
 import PostComponent from './components/PostComponent/PostComponent';
+import HooksProduct from './Hooks/HooksProducts/HooksProducts';
+import SignupForm from './CreateAccount/CreateAccount';
 
 
 function App() {
@@ -59,7 +61,13 @@ function App() {
     {/* lab 4 */}
 
     {/* <GetComponent /> */}
-    <PostComponent />
+    {/* <PostComponent /> */}
+
+    {/* lab 5 */}
+
+
+    {/* <HooksProduct/> */}
+    <SignupForm />
 
     </div>
   );

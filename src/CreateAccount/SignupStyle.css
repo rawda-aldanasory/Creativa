@@ -1,0 +1,190 @@
+/* Container */
+.signup-container {
+  display: flex;
+  width: 100%; 
+  max-width: 1440px; 
+  height: auto; 
+  margin-top: 50px;
+  flex-wrap: wrap; 
+}
+
+/* Left Frame */
+.left-frame {
+  flex: 1 1 50%; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Form Frame */
+.form-frame {
+  width: 100%;
+  max-width: 665px; 
+  padding: 88px;
+  gap: 32px;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Welcome Box */
+.welcome-box {
+  width: 100%; 
+  text-align: left;
+}
+
+.welcome-box h1 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+  font-size: 34px;
+  margin-top: 0; 
+  padding-top: 40px; 
+}
+
+.welcome-box p {
+  font-family: 'Poppins', sans-serif;
+  font-size: 24px;
+  margin-top: 0; 
+}
+
+/* Input Fields */
+.input-field {
+  width: 100%; 
+  margin-bottom: 18px;
+}
+
+.input-field label {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  display: block;
+  margin-bottom: 4px;
+}
+
+.input-field input {
+  width: 100%; 
+  height: 30px;
+  border-radius: 12px;
+  border: 1px solid #666666;
+  padding: 10px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 22px;
+}
+
+/* Password Field */
+
+.password-rules {
+  padding: 2px; 
+  margin-top: 8px; 
+  font-size: 14px; 
+  color: #666;
+  display: flex; 
+  flex-wrap: wrap; 
+}
+
+.password-rules li {
+  margin-right: 40px;
+  margin-top: 10px;
+}
+
+/* Checkbox Field */
+.checkbox-field {
+  display: flex;
+  align-items: flex-start;
+  padding: 8px 0; 
+  margin-top: 50px;
+}
+
+.checkbox-field input {
+  margin-right: 8px;
+  width: 30px;
+  height: 25px;
+}
+
+.checkbox-field label {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+}
+
+.policy {
+  font-family: 'Poppins', sans-serif;
+  font-size: 18px;
+}
+
+.password-rules{
+  font-family: 'Poppins', sans-serif;
+  font-size: 20px;
+}
+
+
+/* Create Account Button */
+.create-account-btn {
+  width: 256px;
+  height: 64px;
+  border-radius: 32px;
+  margin-top: 20px;
+  background-color: #111111;
+  color: white;
+  opacity: 0.25;
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+  font-size: 24px;
+  border: none;
+  cursor: pointer;
+}
+
+.create-account-btn:hover {
+  opacity: 1;
+}
+
+/* Already Have an Account */
+.already-account {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  margin-top: 0; 
+}
+
+/* Right Image  */
+.right-image {
+  flex: 1 1 50%; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden; 
+}
+
+.right-image img {
+  max-width: 100%; 
+  height: auto; 
+}
+
+/* page 2 */
+.welcome-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f5f5f5;
+}
+
+.welcome-container h1 {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 16px;
+}
+
+.welcome-container p {
+  font-size: 18px;
+  color: #666;
+}
+
+a{
+  text-decoration: underline;
+  color: rgb(27, 26, 26);
+}
+
+a:hover{
+  color: rgb(218, 19, 19);
+}
