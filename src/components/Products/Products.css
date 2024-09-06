@@ -1,4 +1,4 @@
-/* body {
+body {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -46,4 +46,4 @@
 .btn:hover {
     border-color: #e18009;
     background-color: #f0f0f0;
-} */
+}

@@ -2,14 +2,15 @@ import React, { useState } from 'react';
 import './HooksProducts.css';
 import Selector from '../../components/TwoButtons/TwoButtons';
 
-function HooksProduct() {
-    const [products, setProducts] = useState([]); 
+function HooksProduct({productsList}) {
+    const [products, setProducts] = useState(productsList); 
     const [showForm, setShowForm] = useState(false); 
     const [name, setName] = useState(''); 
     const [description, setDescription] = useState(''); 
     const [image, setImage] = useState(''); 
     const [totalQuantity, setTotalQuantity] = useState(0);
 
+console.log(productsList);
 
     const addProduct = (e) => {
         e.preventDefault(); 
@@ -90,7 +91,7 @@ function HooksProduct() {
                 <div className="card-container">
                     {products.map((product) => (
                         <div key={product.id} className="card">
-                            <img src={product.image} className="card-img-top" alt={product.name} />
+                            <img src={product.img} className="card-img-top" alt={product.name} />
                             <div className="card-body">
                                 <h5 className="card-title">{product.name}</h5>
                                 <p className="card-text">{product.description}</p>

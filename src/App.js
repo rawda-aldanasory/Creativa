@@ -20,7 +20,14 @@ import GetComponent from './components/GetComponent/GetComponent';
 import PostComponent from './components/PostComponent/PostComponent';
 import HooksProduct from './Hooks/HooksProducts/HooksProducts';
 import SignupForm from './CreateAccount/CreateAccount';
-
+import HooksProductsList from './Hooks/HooksProducts/HooksProductsData';
+import UseEffectCounter from './useEffect/useEffectCounter/useEffectCounter';
+import UsernameGreeting from './useEffect/useEffectGreeting/useEffectGreeting';
+import IntervalCounter from './useEffect/intervalCounter/intervalCounter';
+import WindowDisplay from './useEffect/Window/Window';
+import MousePositionAndClicks from './useEffect/MousePositionAndClicks/MousePositionAndClicks';
+import CommentList from './useEffect/getComments/getComments';
+import SearchComment from './useEffect/SearchComment/SearchComment';
 
 function App() {
   return (
@@ -66,9 +73,18 @@ function App() {
     {/* lab 5 */}
 
 
-    {/* <HooksProduct/> */}
-    <SignupForm />
+    {/* <HooksProductsList /> */}
+    {/* <SignupForm /> */}
 
+    {/* lab 6 */}
+
+    {/* <UseEffectCounter /> */}
+    {/* <UsernameGreeting /> */}
+    {/* <IntervalCounter /> */}
+    {/* <WindowDisplay /> */}
+    {/* <MousePositionAndClicks /> */}
+    {/* <CommentList /> */}
+    <SearchComment />
     </div>
   );
 }

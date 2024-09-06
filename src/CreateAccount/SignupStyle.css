@@ -1,4 +1,4 @@
-/* Container */
+ /* Container */
 .signup-container {
   display: flex;
   width: 100%; 
@@ -12,8 +12,8 @@
 .left-frame {
   flex: 1 1 50%; 
   display: flex;
-  justify-content: center;
-  align-items: center;
+  /* justify-content: center;
+  align-items: center; */
 }
 
 /* Form Frame */
@@ -38,6 +38,7 @@
   font-size: 34px;
   margin-top: 0; 
   padding-top: 40px; 
+  text-align: left;
 }
 
 .welcome-box p {
@@ -50,6 +51,7 @@
 .input-field {
   width: 100%; 
   margin-bottom: 18px;
+  text-align: left;
 }
 
 .input-field label {
@@ -187,4 +189,4 @@ a{
 
 a:hover{
   color: rgb(218, 19, 19);
-}
+} 

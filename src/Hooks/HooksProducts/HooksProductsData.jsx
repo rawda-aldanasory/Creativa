@@ -1,5 +1,5 @@
 import React from 'react';
-import HooksProduct from './HooksProducts'; // Correcting the import
+import HooksProduct from './HooksProducts'; 
 
 const HooksProductsList = () => {
     const products = [
@@ -31,9 +31,7 @@ const HooksProductsList = () => {
             <section>
                 <h2>Products</h2>
                 <div className="card-container">
-                    {products.map((product) => (
-                        <HooksProduct key={product.id} product={product} /> 
-                    ))}
+                        <HooksProduct productsList={products} /> 
                 </div>
             </section>
         </main>
